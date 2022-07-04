@@ -1,0 +1,68 @@
+#robot {
+    height: 400px;
+    width: 400px;
+  }
+  
+
+ #square {
+    width: 15%;
+    height: 15%;
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes example {
+    0%   { left: 0px; top: 0px;}
+    25%  { left: 450px; top: 0px;}
+    50%  {left: 450px; top: 500px;}
+    75%  { left: 0px; top: 500px;}
+    100% { left: 0px; top: 0px;}
+  }
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+ .column{
+  padding: 10px;
+ }
+ @media only screen and (max-width: 800px) {
+  .Rblog {
+    margin: 0px;
+  }
+}
+.Rblog {
+  float: left;
+  
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.Cblog::after {
+  content: "";
+  clear: both;
+  display: table;
+  width:auto;
+}
