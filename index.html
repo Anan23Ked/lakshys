@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Lakshya</title>
+    <title>StoreMyResults</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
@@ -13,37 +13,29 @@
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/LakshyaLogo.svg"></a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style = "background-color: #04182f;">
+        <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/tieLogo.svg" id = "logo"></a>
+            <button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu">
+            <i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item nav-link"><a class="nav-link active" href="#about">About</a></li>
-                   
-                    <li class="nav-item nav-link"><a class="nav-link" href="#blog">Blog</a></li>
                     <li class="nav-item nav-link"><a class="nav-link" href="login.html">Sign Up</a></li>
                     <li class="nav-item nav-link"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-color: #051e3b;">
-        <div class="intro-body" style="background: linear-gradient(black, #051e3b), #051e3b;">
+    <header class="masthead" style="background-image: url('assets/img/bg.png');">
+        <div class="intro-body" >
             <div class="container" >
-                <div id = "square">
-                    <img src = "assets/img/square.svg" />
-                </div>
                 <div class="row">
-                    
                     <div class="col">
                         <img src = "assets/img/Disp.svg" id = "robot"/>
                     </div>
-                        
-                       
-                
                     <div class="col-lg-8 mx-auto">
-                        
-                        <h1 class="brand-heading">lakshya</h1>
-                        <p class="intro-text">Gear up for your hustle.</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a>
+                        <h1>Store My Results</h1><i class="fa fa-archive fa-4x" aria-hidden="true" style="color: #A3CDEB;"></i>  
+                        <p class="intro-text">Remembrance made easier.</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a>
                     </div>
                 </div>
             </div>
@@ -53,107 +45,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>About Lakshya</h2>
-                    <p>A Forum curated for the Computer Science and Engineers enthusiasts of Acharya Institute of Technology.
-                        <p>Focusing on building an engaging community of students, teachers and alumni. We aim to bridge the gap between academics coursework and activities that shape a holistic growth for a student</p>
-                    </div>
+                    <h2>About</h2>
+                    <p>A website to provide comfortable access to results and marks and cut down the hassle of remembring your semester marks</p>
+                    <p>Set up your account and get downloadable content. </p>
+                    <button class="button btn2" type="button" onclick = "window.location.href='#';">Get Started!</button>
+                </div> 
             </div>
         </div>
-        <div class ="container" >
-            <div class="row" id = "Rpics">
-                <div class = "column" id = "Cpics">
-                    <img src="assets/img/products/1.jpg" style="width: 100%;"/>
-                </div>
-                <div class = "column" id = "pics">
-                    <img src="assets/img/products/1.jpg" style="width:100%"/>
-                </div>
-                <div class = "column" id = "pics">
-                    <img src="assets/img/products/1.jpg" style="width:100%"/>
-                </div>
-                <div class = "column" id = "pics">
-                    <img src="assets/img/products/1.jpg" style="width:100%"/>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <section class="text-center download-section content-section" id="blog" style="background: #051e3b;">
-        <div class="container">
-            <div class ="row" style="background:#051e3b;">
-            <div class="col-lg-8 mx-auto">
-                <h1>BLOG</h1>
-                <p>A review on our latest activities</p>
-            </div class = "container mx-auto">
-                <div class = "Rblog">
-                    <div class = "column" id = "Cblog">
-                        <img src = "assets/img/products/2.jpg"  style="width:75%; padding: 2%;"/>
-                        <h4>HeadinG</h4>
-                        <p>Information Sample text.Information Sample text.Information Sample text.</p>
-                        <button class="btn btn-primary btn-lg btn-default" type="button">Lakshya De-Code</button>
-                    </div>
-                    <div class = "column">
-                        <img src = "assets/img/products/2.jpg"  style="width:75%; padding: 2%;"/>
-                        <h4>Heading</h4>
-                        <p>Information Sample text.Information Sample text.Information Sample text.</p>
-                        
-                        
-                        <button class="btn btn-primary btn-lg btn-default" type="button">Lakshya De-Code</button>
-                    </div>
-                
-                    <div class = "column">
-                        <img src = "assets/img/products/2.jpg"  style="width:75%; padding: 2%;"/>
-                        <h4>Heading</h4>
-                        <p>Information Sample text.Information Sample text.Information Sample text.</p>
-                        
-                        <button class="btn btn-primary btn-lg btn-default" type="button">Lakshya De-Code</button>
-                    </div>
-                
-                    <div class = "column">
-                        <img src = "assets/img/products/2.jpg"  style="width:75%; padding: 2%;"/>
-                        <h4>Heading</h4>
-                        <p>Information Sample text.Information Sample text.Information Sample text.</p>
-                        
-                        <button class="btn btn-primary btn-lg btn-default" type="button" >Lakshya De-Code</button>
-                    </div>
-            </div>
-        </div>
-        </div>
-        </div>
-
-        
     </section>
     <section class="text-center content-section" id="contact" style="background: #051e3b;">
         <div class="container">
             <div class="row" style="background: #051e3b;">
                 <div class="col-lg-12 mx-auto">
-                    <h2>Contact us</h2>
+                    <h2>Contact Us</h2>
                     <p>Feel free to leave us a comment and we'll get back you quickly!</p>
-                    <ul class="list-inline banner-social-buttons">
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class= "fa fa-phone"></i><span class="network-name">&nbsp;123456789</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-envelope"></i><span class="network-name">&nbsp;E-mail</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-map-marker"></i><span class="network-name">&nbsp;Address</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-address-card"></i><span class="network-name">&nbsp;Website</span></button></li>
-            
-                    </ul>
-                    
+                    <ul class="list-inline banner-social-buttons" name ="socials">
+                        <li class="list-inline-item socials">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class= "fa fa-phone"></i><span class="network-name">&nbsp;123456789</span></button></li>
+                        <li class="list-inline-item socials">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-envelope"></i><span class="network-name">&nbsp;E-mail</span></button></li>
+                        <li class="list-inline-item socials">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-map-marker"></i><span class="network-name">&nbsp;Address</span></button></li>
+                        </ul>      
             </div>
         </div>
-        
-    </div>
-    
+
     </section>
-    
     <footer>
         <div class="container text-center">
-           
-            <p>Copyright ©&nbsp;Lakshya</p>
+            <p>Copyright ©&nbsp;StoreMyResults</p>
             <p>Privacy Policies</p>
-
             <p><small>Terms and Conditions</small></p>
-
         </div>
     </footer>
-
 </body>
-
 </html>
